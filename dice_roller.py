@@ -2,6 +2,8 @@
 
 def main():
   import random
+  player1_name = input("Enter player 1 name: ")
+  player2_name = input("Enter player 2 name: ")
   dice_rolls = int(input('How many dice would you like to roll? '))
   dice_size = int(input('How many sides are the dice? '))
   dice_sum = 0
